@@ -1,7 +1,7 @@
 
 % Unit conversion
-rad = 180/pi;
-deg = pi/180;
+rad = pi/180;
+deg = 180/pi;
 
 % Color Mask Parameters
 R_min = uint8(127);
@@ -20,3 +20,6 @@ initialSearchAngle = 90; % degrees
 
 % Takeoff wait
 takeoffWaitTime = 1.2; % seconds
+
+% Path Planning
+pathGain = 0.3;
