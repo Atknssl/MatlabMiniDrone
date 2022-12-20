@@ -14,7 +14,7 @@ B_min = uint8(0);
 B_max = uint8(149);
 
 % Line Search parameters
-searchAngle = 160; % degrees
+searchAngle = 145; % degrees
 searchRange = 59; % pixels
 initialSearchAngle = 90; % degrees
 
@@ -22,4 +22,10 @@ initialSearchAngle = 90; % degrees
 takeoffWaitTime = 1.2; % seconds
 
 % Path Planning
-pathGain = 0.3;
+pathGain = 0.35;
+
+% Circle detection
+erosionRadius = 12;
+pixelThreshold = 80; % pixels
+circMetricThreshold = 0.9;
+circleCheckNumber = 3;
