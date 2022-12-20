@@ -3,6 +3,9 @@
 rad = pi/180;
 deg = 180/pi;
 
+% Flight parameter
+flightAltitude = -1.1; % meters in NED
+
 % Color Mask Parameters
 R_min = uint8(127);
 R_max = uint8(255);
@@ -29,3 +32,9 @@ erosionRadius = 12;
 pixelThreshold = 80; % pixels
 circMetricThreshold = 0.9;
 circleCheckNumber = 3;
+
+% Circle homing
+circleHomingGain = 0.004;
+
+% Landing
+landingSpeedTolerance = 0.01; % m/s
