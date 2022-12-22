@@ -17,7 +17,7 @@ B_min = uint8(0);
 B_max = uint8(149);
 
 % Line Search parameters
-searchAngle = 145; % degrees
+searchAngle = 150; % degrees
 searchRange = 59; % pixels
 initialSearchAngle = 90; % degrees
 
@@ -31,10 +31,13 @@ pathGain = 0.35;
 erosionRadius = 12;
 pixelThreshold = 80; % pixels
 circMetricThreshold = 0.9;
-circleCheckNumber = 3;
+circleCheckNumber = 2;
 
 % Circle homing
 circleHomingGain = 0.004;
 
 % Landing
 landingSpeedTolerance = 0.01; % m/s
+
+% Safety Stop
+safetyCheckNumber = 10;
